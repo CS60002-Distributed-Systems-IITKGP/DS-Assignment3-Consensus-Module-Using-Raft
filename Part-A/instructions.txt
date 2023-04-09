@@ -1,0 +1,9 @@
+
+Run 1st
+>  python3 atm-raft.py localhost:2000 localhost:2001 localhost:2002
+
+Run 2nd
+>  python3 atm-raft.py localhost:2001 localhost:2000 localhost:2002
+
+Run 3rd
+>  python3 atm-raft.py localhost:2002 localhost:2001 localhost:2000
